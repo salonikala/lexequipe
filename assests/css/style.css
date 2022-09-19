@@ -1,0 +1,414 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#D1 i:hover {
+    color: orange;
+    transition: 0.8s;
+    transform: rotateY(360deg);
+
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#one {
+    width: 400px;
+    display: block;
+    background-color: white;
+    height: 100px;
+    box-shadow: 5px 3px 3px 3px grey;
+    text-align: center;
+}
+
+#img {
+    animation: ani 40s linear infinite;
+}
+
+#dropdown {
+    display: none;
+    position: absolute;
+    width: 300px;
+    background-color: white;
+}
+
+#drop:hover #dropdown {
+    display: block;
+    border-top: 3px solid #e6a44c;
+}
+
+#drop {
+    position: relative;
+    z-index: 99;
+}
+
+#dropdown li {
+    border-bottom: 1px solid rgb(208, 203, 203);
+}
+
+.new li {
+    border-bottom: 1px solid lightgrey;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+@keyframes ani {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+#btn {
+    background-color: rgb(228, 180, 56);
+    display: inline-block;
+    width: 170px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+#btn:hover {
+    background-color: rgb(210, 148, 13);
+}
+
+.icon:hover {
+    color: rgb(243, 90, 35);
+}
+
+.H1 {
+    text-align: center;
+    padding-left: 30px;
+    font-size: 50px;
+}
+
+.main {
+    border: 1px solid grey;
+    height: 300px;
+}
+
+.inner1 {
+    display: flex;
+}
+
+.h4 {
+    text-align: center;
+}
+
+.col {
+    border: 1px solid lightgrey;
+}
+
+.s1 {
+    font-size: 40px;
+    color: black;
+}
+
+.p1 {
+    font-size: large;
+    color: black;
+}
+
+.b1 {
+    width: 90px;
+    padding: 10px;
+    background-color: rgb(228, 163, 42);
+    border: none;
+    color: white;
+}
+
+.b1:hover {
+    background-color: orange;
+}
+
+.h3 {
+    color: white;
+}
+
+.s2 {
+    color: orange;
+    font-size: 20px;
+    margin-right: 240px;
+}
+
+#email {
+    width: 50%;
+    padding: 10px;
+    border-radius: 4%;
+    border-color: whitesmoke;
+    background-color: rgb(1, 44, 93);
+}
+
+#fname {
+    border-color: whitesmoke;
+    background-color: rgb(1, 44, 93);
+}
+
+#phone {
+    border-color: whitesmoke;
+    background-color: rgb(1, 44, 93);
+}
+
+
+.p2 {
+    padding-top: 20px;
+}
+
+.h2 {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.IN {
+    color: black;
+    margin-right: 100px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.ON {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.IN:hover {
+    background-color: orange;
+    width: 70px;
+}
+
+.ON:hover {
+    background-color: orange;
+    width: 70px;
+}
+
+.P1 {
+    font-size: 20px;
+    color: darkblue;
+}
+
+.S1 {
+    color: orange;
+}
+
+.B1 {
+    border: none;
+    background-color: rgb(228, 163, 42);
+    padding: 10px;
+    width: 300px;
+    border-radius: 6%;
+    color: white;
+    font-size: 20px;
+}
+
+.B1:hover {
+    background-color: orange;
+}
+
+.T1:hover {
+    color: orange;
+}
+
+.C1 {
+    font-size: 25px;
+    color: rgb(1, 1, 56);
+}
+.drop {
+    display: none;
+}
+
+.nav-item:hover .drop {
+    display: block;
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+    border-top: 5px solid orange;
+
+}
+
+
+.bottom {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.bottom:hover {
+    color: orange;
+}
+
+.new li {
+    border-bottom: 1px solid lightgrey;
+}
+
+.nav-link:hover {
+    color: orange;
+}
+
+.O1:hover {
+    color: orange;
+}
+
+.V1 {
+    color: white;
+    font-size: 55px;
+}
+
+.V2 {
+    font-size: 20px;
+}
+
+.G1:hover {
+    color: orange;
+    transition: 0.8s;
+    transform: translateX(10px);
+}
+
+.G1 {
+    font-size: 15px;
+    color: gray;
+}
+
+#con {
+    background-color: rgb(6, 6, 84);
+}
+
+.side {
+    text-align: left;
+    position: absolute;
+    background-color: white;
+    top: 0%;
+    visibility: hidden;
+    background-color: white;
+    height: 410px;
+    width: 200px;
+}
+
+.slide1 {
+    position: relative;
+}
+
+.slide1:hover .side {
+    left: 0px;
+    bottom: 0;
+    opacity: 1;
+    visibility: visible;
+    width: 60%;
+    right: -15%;
+    transition: 0.8s;
+    transform: translateX(10px);
+}
+
+.h0 {
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+
+.B6 {
+    color: gray;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.J1 {
+    color: lightgrey;
+}
+
+#mon {
+    position: sticky;
+    top: 0px;
+
+    z-index: 10;
+}
+
+.card {
+    padding: 5%;
+}
+
+.col-3 {
+    padding-right: 0%;
+    padding-left: 0%;
+}
+#Qul{
+    box-shadow:  3px 4px 4px lightgray;
+    position:absolute; 
+    top:100%;
+}
+
+
+
+@media screen and (max-width:768px) {
+    #medianav {
+        display: none;
+    }
+
+    #con {
+        display: none;
+    }
+#Qul{
+    top: 65%;
+    position: absolute;
+}
+    .V1 {
+        display: none;
+    }
+.V2{
+    position: absolute;
+}
+    #ex {
+        top: 100%;
+        position: absolute;
+    }
+
+    .s2 {
+        color: orange;
+        font-size: 20px;
+        margin-right: 0px;
+    }
+
+    #fname {
+        width: 100%;
+    }
+
+    #phone {
+        width: 100%;
+    }
+
+    #email {
+        width: 100%;
+    }
+
+    .b1 {
+        width: 100%;
+    }
+
+    .side {
+        text-align: left;
+        position: absolute;
+        background-color: white;
+        top: 10%;
+        visibility: hidden;
+        background-color: white;
+        height: 430px;
+        width: 200px;
+    }
+    #mon{
+        position: sticky;
+        top:0px;
+    }
+    
+}
+    
