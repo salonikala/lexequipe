@@ -129,21 +129,25 @@ a {
     border: none;
     color: white;
 }
-
+form{
+    text-align: center;
+}
 .b1:hover {
     background-color: orange;
 }
 
 .h3 {
     color: white;
+    font-size: 1.6rem;
 }
 
 .s2 {
     color: orange;
-    font-size: 20px;
-    margin-right: 240px;
+    font-size: 1.3rem;
 }
-
+#we{
+    text-align: center;
+}
 #email {
     width: 50%;
     padding: 10px;
@@ -172,9 +176,11 @@ a {
     font-size: 1.4rem;
     padding-bottom: 20px;
 }
-#spe{
+
+#spe {
     font-size: 1.6rem;
 }
+
 .IN {
     color: black;
     margin-right: 100px;
@@ -192,9 +198,11 @@ a {
     background-color: orange;
     width: 70px;
 }
-.star{
+
+.star {
     float: right;
 }
+
 .ON:hover {
     background-color: orange;
     width: 70px;
@@ -216,7 +224,7 @@ a {
     width: 300px;
     border-radius: 6%;
     color: white;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 .B1:hover {
@@ -231,6 +239,7 @@ a {
     font-size: 25px;
     color: rgb(1, 1, 56);
 }
+
 .drop {
     display: none;
 }
@@ -243,8 +252,6 @@ a {
     border-top: 5px solid orange;
 
 }
-
-
 .bottom {
     text-decoration: none;
     color: black;
@@ -269,22 +276,22 @@ a {
 
 .V1 {
     color: white;
-    font-size:3rem;
-    position: absolute;
-    top: 45%;
-    left: 20%;
-}
-#pro{
-    top: 98%;
-    position: absolute;
-}
-.V2 {
-    font-size:1.4rem;
-    position: absolute;
-    top: 54%;
-    left: 25%;
+    font-size: 3rem;
 }
 
+#pro {
+    top: 96%;
+    position: absolute;
+}
+
+.V2 {
+    font-size: 1.4rem;
+}
+#expert{
+    position: absolute;
+   text-align: center;
+   top: 50%;
+}
 .G1:hover {
     color: orange;
     transition: 0.8s;
@@ -356,14 +363,6 @@ a {
     padding-right: 0%;
     padding-left: 0%;
 }
-#Qul{
-    box-shadow:  3px 4px 4px lightgray;
-    position:absolute; 
-    top:90%;
-}
-
-
-
 @media screen and (max-width:768px) {
     #medianav {
         display: none;
@@ -372,17 +371,19 @@ a {
     #con {
         display: none;
     }
-   #Qul{
-   visibility: hidden;
-   }
+
+    #Qul {
+        visibility: hidden;
+    }
+
     .V1 {
         display: none;
     }
-    .V2{
+
+    #expert{
         position: absolute;
-        top: 20%;
-        left: 13%;
-        font-size: 0.4rem;
+        top: 25%;
+       font-size: 0.3rem;
     }
     #ex {
         top: 100%;
@@ -416,45 +417,49 @@ a {
         position: absolute;
         background-color: white;
         visibility: hidden;
-        height:auto;
+        height: auto;
         width: 200px;
     }
-    #mon{
+
+    #mon {
         position: sticky;
-        top:0px;
+        top: 0px;
     }
-    #immg{
+
+    #immg {
         width: 100%;
     }
 
-    
+
 }
+
 @media screen and (max-width:820px) {
-    #Qul{
+    #pro {
         display: inline-block;
         top: 36%;
     }
-    .V2{
+
+    .V2 {
         position: absolute;
         top: 22%;
         left: 18%;
         font-size: 1rem;
     }
-    #immg{
+
+    #immg {
         width: 100%;
     }
-    .V1{
+
+    .V1 {
         display: none;
     }
+
     .side {
         text-align: left;
         position: absolute;
         background-color: white;
         visibility: hidden;
-        height:auto;
+        height: auto;
         width: 200px;
     }
-    #pro{
-        display: none;
-    }
-}   
+}
