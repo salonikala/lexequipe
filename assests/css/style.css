@@ -290,7 +290,7 @@ form{
 #expert{
     position: absolute;
    text-align: center;
-   top: 50%;
+   top: 47%;
 }
 .G1:hover {
     color: orange;
@@ -382,7 +382,7 @@ form{
 
     #expert{
         position: absolute;
-        top: 25%;
+        top: 22%;
        font-size: 0.3rem;
     }
     #ex {
