@@ -287,6 +287,45 @@ form{
 .V2 {
     font-size: 1.4rem;
 }
+.demo {
+    width: 550px;
+    height: 150px;
+    background: #fff;
+    position: relative;
+    top: -70px;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 31%);
+    text-align: center;   
+}
+.pq{
+    font-family: 'Lora',serif;
+    color: #506172;
+    font-size: 18px;
+    line-height: 30px;
+   padding-top: 5%;
+    font-weight: normal;
+    
+   }
+   .btnn{
+    background-color: #e6a44c;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 0;
+    padding: 27px 44px;
+    border-radius: 5px;
+    min-width: 200px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+   }
+   .ss{
+    color: #e6a44c;
+   }
 #expert{
     position: absolute;
    text-align: center;
@@ -367,7 +406,11 @@ form{
     #medianav {
         display: none;
     }
-
+    .demo{
+        width: 100%;
+        height:auto;
+        top: 80%;
+    }
     #con {
         display: none;
     }
